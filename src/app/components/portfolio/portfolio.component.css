@@ -1,0 +1,26 @@
+
+
+
+.item {
+  position: relative;
+  overflow: hidden;
+}
+
+.item:hover .layer {
+  top: 0;
+  transition: top 0.5s;
+}
+
+
+.item .layer {
+  position: absolute;
+  top: 100%;
+  left: 8px;
+  width: 77.2%;
+  height: 100%;
+  background-color: #1abc9cbc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
